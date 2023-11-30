@@ -1,6 +1,6 @@
 import {useState} from "react"
 import QuestionCard from "./questioncard"
-import data from "./data.js"
+import data from "@/data.js"
 import Navbar from "./nav"
 export default function QuizCard() {
   const [totalScore, setTotalScore] = useState(0);
