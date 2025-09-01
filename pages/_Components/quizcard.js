@@ -15,7 +15,7 @@ export default function QuizCard() {
     <div className="flex flex-col space-y-5 justify-center items-center mt-10">
     <p className="mt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-300 font-medium text-4xl select-none">Quiz Mania</p>
     <p className="text-sm flex justify-end items-center text-neutral-400">Enchance your knowledge by proving your result!!</p>
-    <p className="text-sm flex justify-center items-center text-neutral-400">For correct answer: +1</p>
+    <p className="text-sm flex justify-center items-center text-neutral-400">For correct answer: +4</p>
     <p className="text-sm flex justify-center items-center text-neutral-400">For Wrong answer: -1</p>
     {
 
