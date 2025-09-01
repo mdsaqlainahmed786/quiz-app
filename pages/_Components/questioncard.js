@@ -31,7 +31,7 @@ export default function QuestionCard({
 
     if (checkans === ans) {
       updateTotalScore(1);
-      setScore(prev=>prev+1)
+      setScore(prev=>prev+4)
     } else {
       updateTotalScore(-1);
       setScore(prev=>prev-1)
